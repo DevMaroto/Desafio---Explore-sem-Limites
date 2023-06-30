@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore sem limites</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./imgs/icons8-nebula-32.png" type="image/x-icon">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <img id="img-astronaut" src="./imgs/astronautamobile.svg" alt="Um astronauta no espaço com 5 planetas atras dele">
+      </div>
+
+      <div class="header-phrases">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <a href="#">
+          <img class="arrow-down"src="./imgs/Group 24.png" alt="Um elipse de cor rosa na vertical com uma seta rosa dentro dele indicando para baixo ">
+        </a>
+      </div>
+    </header>
+
+    <div class="hero">
+
+      <div class="box-moons">
+        <img class="img-moons"src="./imgs/lualaranja.png" alt="Uma lua Laranja">
+          <div class="box-h2-P">
+            <h2>Não pare nunca</h2>
+            <p class="paragraphs">Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+          </div>
+      </div>
+      <div class="box-moons">
+        <img class="img-moons"src="./imgs/luaazul.png" alt="Uma lua Azul">
+          <div class="box-h2-P">
+            <h2>Só volta</h2>
+            <p class="paragraphs">Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+          </div>
+      </div>
+      <div class="box-moons  box-sizing-pink-moon">
+        <img class="img-moons"src="./imgs/luarosa.png" alt="Uma lua Rosa">
+          <div class="box-h2-P">
+            <h2>Siga seu ritmo</h2>
+            <p class="paragraphs">Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="form">
+      <form action="submit-form">
+        <fieldset>
+          <legend>Entre em contato</legend>
+            <div class="input-wrapper-fieldset">
+              <div class="input-wrapper img-user">
+                <label for="contact-name"></label>
+                <input class="input-placeholder" type="text" name="contact-name" id="contact-name" placeholder="Seu nome" autocomplete="off" required>
+              </div>
+  
+              <div class="input-wrapper img-email">
+                <label for="contact-email"></label>
+                <input class="input-placeholder" type="email" name="contact-email" id="contact-email" placeholder="Email" autocomplete="off" required>
+              </div>
+  
+              <div class="input-wrapper-textarea">
+                <label for="text-message"></label>
+                <textarea class="textarea-placeholder" name="text-message" id="text-message" placeholder="Digite sua mensagem aqui..."></textarea>
+              </div>
+              <button class="button-submit" type="submit" id="submit-form">Enviar Mensagem</button>
+            </div>
+          </fieldset>
+        </form>
+        <div id="stars">
+          <img src="./imgs/bg.stars.svg" alt="Um conjunto de estrelas rosas no lado direito da tela">
+        </div>
+    </div>
+
+    <footer>
+      <span>© 2023 - Rocketseat Explorer</span>
+    </footer>
+
+  </div>
+</body>
+</html>
