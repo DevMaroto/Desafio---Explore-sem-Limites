@@ -1,6 +1,6 @@
 
 <h1 align="center"> Desafio Explore sem Limites Explorer Turma 11 </h1>
-<p align="center"> Desafio do stage intesivão 1-4 consolidando os aprendizados do stage 1 ao stage 4.</p>
+<p align="center"> Desafio do stage intesivão 1-4.</p>
 
 
 ## (Mode Desktop)
@@ -27,9 +27,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desafio realizado para concluir habilidades de responsividade adquiridas no Stage 3.
+Desafio realizado para consolidar o que foi visto do stage 1 ao 4.
 
-- [Acesse o projeto finalizado, online](https://devmaroto.github.io/Desafio-Mobile-First-Explorer-Turma-11/)
+- [Acesse o projeto finalizado, online](https://devmaroto.github.io/Desafio-Explore-sem-Limites/)
 
 ## 🔖 Layout
 
